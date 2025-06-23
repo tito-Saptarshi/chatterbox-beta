@@ -14,7 +14,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "stream-chat": "^9.8.0",
-    "stream-chat-react": "^13.1.2"
+    "stream-chat-react": "^13.2.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
