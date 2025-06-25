@@ -5,10 +5,10 @@ import { useCreateChatClient, Chat, Channel, ChannelHeader, MessageInput, Messag
 
 import 'stream-chat-react/dist/css/v2/index.css';
 
-const apiKey = 'dz5f4d5kzrue';
-const userId = 'long-band-3';
-const userName = 'long';
-const userToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoibG9uZy1iYW5kLTMiLCJleHAiOjE3NTA3MTIwOTB9.6oD9BSlKp12eclOTxSYP8rC_IChftwbepWQ32zJUcKI';
+const apiKey = '8wu5wsn9bmst';
+const userId = 'user_2yk0qnV6gCpk4r0IDVQi8qe2Jgd';
+const userName = 'Sap';
+const userToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoidXNlcl8yeWswcW5WNmdDcGs0cjBJRFZRaThxZTJKZ2QifQ.Fl1Oubw5yczsIgG1wxSEMZN06-X1r4tkeRDps6agzIc';
 
 const user = {
   id: userId,
@@ -16,7 +16,7 @@ const user = {
   image: `https://getstream.io/random_png/?name=${userName}`,
 };
 
-export function ChatClient ()  {
+export function ChatClient () {
   const [channel, setChannel] = useState();
   const client = useCreateChatClient({
     apiKey,
@@ -51,3 +51,4 @@ export function ChatClient ()  {
     </Chat>
   );
 };
+
